@@ -166,5 +166,21 @@ p {
     padding: 2%;
 }
 
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5%;
+    background-color: #1f1f1e;
+}
+
+.footer p {
+    font-size: 0.9em;
+    font-style: italic;
+    color: white;
+}
+
 
 
