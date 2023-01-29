@@ -46,7 +46,7 @@ p {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    box-shadow: 0rem 0.5rem 1rem rgb(197, 197, 197);
+    box-shadow: 0rem 0.2rem 0.5rem rgb(153, 153, 153);
 }
 
 .logo {
