@@ -20,7 +20,7 @@ h1 {
 
 h2 {
     font-family: 'Outfit', sans-serif;
-    font-size: 1.8em;
+    font-size: 2em;
 }
 
 h3 {
@@ -40,22 +40,27 @@ p {
 }
 
 .navbar {
-    background: lightgrey;
-    padding: 2%;
+    background: white;
+    padding: 1.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0rem 0.5rem 1rem rgb(144, 144, 144);
+    flex-direction: row;
+    box-shadow: 0rem 0.5rem 1rem rgb(197, 197, 197);
 }
 
 .logo {
-    font-family: 'Outfit', sans-serif;
-    font-size: 1.5em;
+    padding-left: 3%;
 }
 
 .menu a {
     color: black;
     text-decoration: none;
+}
+
+.menu a:hover {
+    color: #FE2F7F;
+    transition: all 0.3s ease-in-out;
 }
 
 .menu li {
@@ -68,6 +73,7 @@ p {
 .menu {
     display: flex;
     gap: 3em;
+    padding-right: 3%;
 }
 
 .home-banner {
@@ -89,7 +95,7 @@ p {
 
 .text-animation-container .text {
     position: relative;
-    color: palevioletred;
+    color: #FE2F7F;
     font-size: 4.5em;
     font-weight: 600;
     font-family: 'Outfit', sans-serif;
@@ -107,7 +113,7 @@ p {
     height: 100%;
     width: 100%;
     background-color: white;
-    border-left: 2px solid palevioletred;
+    border-left: 2px solid #FE2F7F;
     animation: animate 4s steps(18) infinite;
 }
 
@@ -124,17 +130,18 @@ p {
 
 .box-container {
     padding: 5%;
-    background: red;
+    background: #1f1f1e;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 .info-card1, .info-card2, .info-card3 {
-    background-color: white;
-    padding: 8%;
+    background: linear-gradient(#FE2F7F, #F488A9);
+    padding: 5%;
     border-radius: 2em;
     margin: 1em;
+    box-shadow: 0rem 0.5rem 2rem rgb(0, 0, 0);
 }
 
 .info-card1 p, .info-card2 p, .info-card3 p {
