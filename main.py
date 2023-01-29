@@ -29,10 +29,14 @@ def main():
     # Collect tweets
     tweets = tw.Cursor(api.search_tweets, q=f'{search_words} -filter:retweets', lang = "en", since=date_since).items(200)
 
+    output = []
     # Iterate and print tweets
     for tweet in tweets:
         if (not tweet.retweeted) and ('RT @' not in tweet.text):
             print(tweet.text)
+            output.append(tweet.text.split(' '))
+    data = pd.DataFrame(output)
+    data.to_csv('dataFromTweets.csv')
 
 
 if __name__ == '__main__':
