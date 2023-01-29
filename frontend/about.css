@@ -84,9 +84,23 @@ p {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 3%;
+    padding-top: 5%;
 }
 
 .about-container h1 {
     padding-top: 1%;
+    font-size: 4em;
+}
+
+.about-container h3 {
+    padding: 0.8% 30% 0.8%;
+}
+
+.about-container p {
+    padding: 0.5% 30% 0.5%;
+    line-height: 2em;
+}
+
+.about-container a {
+    color: #FE2F7F;
 }
