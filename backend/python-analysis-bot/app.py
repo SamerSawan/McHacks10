@@ -245,6 +245,6 @@ classifyObj = AnalysisBot()
 
 classifyObj.classify_tweets()
 
-data = ps.DataFrame(classifyObj.classified_tweets)
-data.to_csv('classified_Tweets.csv')
+data = ps.DataFrame(classifyObj.results)
+data.to_csv('results.csv')
 
