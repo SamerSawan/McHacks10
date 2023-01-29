@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         // Replace this with the address you want to search
-        String address = "";
+        String address = "mexican";
 
         // Scraping Uber Eats
         String url = "https://www.ubereats.com/en-US/search/"+address+"/";
@@ -25,7 +25,7 @@ public class Main {
         }
 
         // Scraping Doordash
-        url = "https://www.doordash.com/en-US/search/"+address+"/";
+        url = "https://www.doordash.com/search/store/" + address + "/?event_type=search";
         document = Jsoup.connect(url).get();
         cards = document.select(".c-search-card");
         System.out.println("Doordash:");

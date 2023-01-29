@@ -36,7 +36,7 @@ def main():
             print(tweet.text)
             output.append(tweet.text.split(' '))
     data = pd.DataFrame(output)
-    data.to_csv('dataFromTweets.csv')
+    data.to_csv('dataFromTweets_' + search_words + '.csv')
 
 
 if __name__ == '__main__':
