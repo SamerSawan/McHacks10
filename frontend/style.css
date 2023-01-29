@@ -15,7 +15,7 @@
 
 h1 {
     font-family: 'Outfit', sans-serif;
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 h2 {
@@ -51,6 +51,10 @@ p {
 
 .logo {
     padding-left: 3%;
+}
+
+.logo:hover {
+    opacity: 70%;
 }
 
 .menu a {
@@ -114,7 +118,7 @@ p {
     width: 100%;
     background-color: white;
     border-left: 2px solid #FE2F7F;
-    animation: animate 4s steps(18) infinite;
+    animation: animate 4s steps(20) infinite;
 }
 
 @keyframes animate {
@@ -148,6 +152,19 @@ p {
     padding-top: 5%;
 }
 
+/* DEMO SECTION */
+
+.demo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.demo-container p {
+    padding: 2%;
+}
 
 
 

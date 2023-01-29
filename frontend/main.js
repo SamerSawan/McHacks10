@@ -8,10 +8,10 @@ const textLoad = () => {
     }, 0);
     setTimeout(() => {
         text.textContent = "worker satisfaction.";
-    }, 4180);
+    }, 4100);
     setTimeout(() => {
         text.textContent = "affordable delivery.";
-    }, 8180);
+    }, 8100);
 }
 
 textLoad();
